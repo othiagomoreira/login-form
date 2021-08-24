@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Login Form</title>
 </head>
 <body>
-    
+    <main>
+        <h2>Login</h2>
+        <form class="formulario" action="#" method="POST">
+                <div>
+                    <input type="text" name="login" id="login" placeholder="Enter Your Username">
+                </div>
+                <div>
+                    <input type="password" name="senha" id="senha" placeholder="Enter Your Password">
+                </div> 
+                <button disabled type="submit">Continue</button>
+        </form>
+        <div class="footer">
+            <span>Or connect WIth Social Media</span>
+                <div class="social-fields twitter">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        Sign in with Twitter
+                    </a>
+                </div>
+                <div class="social-fields facebook">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        Sign in with Facebook
+                    </a>
+                </div>
+        </div>
+    </main>
 </body>
 </html>
